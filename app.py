@@ -45,11 +45,11 @@ def extractive_summarization(text, num_sentences=3):
 
     return summary
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     
-    input_file = "data/sample text.txt"  
-    with open(input_file, "r", encoding="utf-8") as file:
-        input_text = file.read()
+ #   input_file = "data/sample text.txt"  
+  #  with open(input_file, "r", encoding="utf-8") as file:
+   #     input_text = file.read()
 
    
     summary = extractive_summarization(input_text, num_sentences=5)
